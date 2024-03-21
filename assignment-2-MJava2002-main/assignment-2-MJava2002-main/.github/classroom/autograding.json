@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "test_project_2.1",
+      "setup": "sudo -H chmod -R +x .",
+      "run": "python3 project_2_1/driver.py",
+      "input": "",
+      "output": "youtu.be/5HDkiUCYTio",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 60
+    },
+    {
+      "name": "test_project_2.2",
+      "setup": "sudo -H chmod -R +x .",
+      "run": "python3 project_2_2/driver.py",
+      "input": "",
+      "output": "d9742e56f76043bfdf728344d59e1499",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 40
+    }
+  ]
+}
